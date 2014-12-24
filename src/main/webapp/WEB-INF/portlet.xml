@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+             version="2.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+   http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+   <portlet>
+     <portlet-name>weather1</portlet-name>
+     <display-name xml:lang="EN">Hello Juzu</display-name>
+     <portlet-class>org.example.weather1.Weather1Portlet</portlet-class>
+     <supports>
+       <mime-type>text/html</mime-type>
+     </supports>
+     <portlet-info>
+       <title>Weather 1</title>
+       <keywords>juzu,sample</keywords>
+     </portlet-info>
+   </portlet>
+   <portlet>
+     <portlet-name>weather2</portlet-name>
+     <display-name xml:lang="EN">Juzu Template Overview</display-name>
+     <portlet-class>org.example.weather2.Weather2Portlet</portlet-class>
+     <supports>
+       <mime-type>text/html</mime-type>
+     </supports>
+     <portlet-info>
+       <title>Weather 2</title>
+       <keywords>juzu,sample</keywords>
+     </portlet-info>
+   </portlet>
+  <portlet>
+    <portlet-name>weather3</portlet-name>
+    <display-name xml:lang="EN">Juzu Dependency Injection</display-name>
+    <portlet-class>org.example.weather3.Weather3Portlet</portlet-class>
+    <init-param>
+      <name>juzu.inject</name>
+      <value>spring</value>
+      <!--
+      <value>weld</value>
+      -->
+    </init-param>
+    <supports>
+      <mime-type>text/html</mime-type>
+    </supports>
+    <portlet-info>
+      <title>Weather 3</title>
+      <keywords>juzu,sample</keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>weather4</portlet-name>
+    <display-name xml:lang="EN">Juzu Views</display-name>
+    <portlet-class>org.example.weather4.Weather4Portlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+    </supports>
+    <portlet-info>
+      <title>Weather 4</title>
+      <keywords>juzu,sample</keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>weather5</portlet-name>
+    <display-name xml:lang="EN">Juzu Actions</display-name>
+    <portlet-class>org.example.weather5.Weather5Portlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+    </supports>
+    <portlet-info>
+      <title>Weather 5</title>
+      <keywords>juzu,sample</keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>weather6</portlet-name>
+    <display-name xml:lang="EN">Juzu Type Safe Templating</display-name>
+    <portlet-class>org.example.weather6.Weather6Portlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+    </supports>
+    <portlet-info>
+      <title>Weather 6</title>
+      <keywords>juzu,sample</keywords>
+    </portlet-info>
+  </portlet>
+  <portlet>
+    <portlet-name>weather7</portlet-name>
+    <display-name xml:lang="EN">Juzu Styled</display-name>
+    <portlet-class>org.example.weather7.Weather7Portlet</portlet-class>
+    <supports>
+      <mime-type>text/html</mime-type>
+    </supports>
+    <portlet-info>
+      <title>Weather 8</title>
+      <keywords>juzu,sample</keywords>
+    </portlet-info>
+  </portlet>
+</portlet-app>
